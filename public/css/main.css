@@ -1,0 +1,404 @@
+html, body{
+    background: rgb(242, 170, 168);
+    font-family: Calibri, sans-serif !important;
+}
+.nav-item{
+    display: grid;
+    place-content: center;
+}
+.maroon{
+    color: rgb(97, 13, 13);
+}
+
+.thead-dark{
+    background-color: rgb(97, 13, 13) !important;
+}
+.white{
+    color: #fff;
+}
+ 
+.row{ 
+    justify-content: center;
+}
+
+
+/* @media(max-width:768px){ */
+    .row{ 
+        margin-left: 0;
+        margin-right: 0;
+    }
+/* } */
+.btn-primary{
+    background: #fff;
+    color: rgb(97, 13, 13);
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+@media(min-width:768px){
+    .table-responsive{
+        display: table;
+    }
+}
+@media(max-width:768px){
+    .table-responsive{
+        display: block;
+    }
+
+
+    .nav-item{
+        display: grid;
+        place-content: unset;
+    }
+}
+.btn-primary:hover{
+    background: rgba(97, 13, 13, 0.8);
+    color: #fff;
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba(97,1,13,0.5);
+}
+.btn-primary:active{
+    background-color:  rgba(97,1,13,0.5) !important;
+}
+
+
+
+.btn-maroon{
+    color: #fff;
+    background: rgb(97, 13, 13);
+    /* font-weight: 600;
+    font-size: 20px; */
+    border: none;
+}
+.btn-maroon:hover{
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(97,1,13,0.5);
+}
+
+
+.register-block{
+
+    background: rgb(97, 13, 13);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+}
+.register-block h2{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+
+.card{
+    border-radius: 0;
+    border: none;
+}
+
+
+/* Navbar */
+
+
+
+.navbar-brand span{
+    font-size: 36px;
+    font-weight: 700;
+}
+.navbar-brand small{
+    font-weight: 600
+}
+.nav-item a{ 
+    color: rgb(97, 13, 13)  !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* End Navbar */
+.round-img{
+    margin-top: 20px;
+    text-align: -webkit-center;
+    justify-content: center;
+}
+.round-img h4{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    /* font-size: 18px; */
+}
+.img{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    /* background-color: #142CD6; */
+    margin-bottom: 20px;
+}
+.img img{
+    max-width: 100%;
+}
+.img img.image-round{
+    border-radius: 50%;
+    box-shadow:  0 7px 21px rgba(0, 0, 0, 0.2);
+}
+.header-brief{
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+
+}
+.header-brief h3{
+    color: #fff
+}
+
+
+.service-section{
+    margin: 0 auto
+}
+.service-section .col-md-4{
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+.service-section .card{
+    width: 15rem;
+    border-radius: 14px;
+    border: 2px solid rgb(97, 13, 13);
+    background: rgb(97, 13, 13);
+    color: #fff;
+    height: 110px;
+   
+    display: grid;
+    place-content: center;
+    -webkit-box-shadow: 0px 0px 8px 12px rgba(97,13,13,0.75);
+    -moz-box-shadow: 0px 0px 8px 12px rgba(97,13,13,0.75);
+    box-shadow: 0px 0px 8px 12px rgba(97,13,13,0.75);
+}
+.service-section .card h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.hidden{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+.service-section .card:hover .hide{
+    display: block;
+}
+.service-section .card:hover h2{
+    display: none;
+}
+
+.location-hidden{
+    display: none;
+}
+
+
+@media(max-width:768px){
+    .location-shown{
+        display: none;
+    }
+    .location-hidden{
+        display: block;
+    }
+
+    .service-section .card{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
+/* User Registration Page */
+
+.user-register-form form input, .user-register-form form select, .user-register-form textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    /* background: transparent; */
+    color: rgb(97, 13, 13) !important;
+    margin-bottom: 2px;
+}
+.user-register-form form input:focus{
+    box-shadow: none;
+}
+
+
+
+/* End User Registration Page */
+
+
+
+
+.user-login-form form input{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    /* background: transparent; */
+    color: rgb(97, 13, 13) !important;
+    margin-bottom: 2px;
+}
+.user-login-form form input:focus{
+    /* background: transparent; */
+    /* box-shadow: 0 0 0 0.2rem rgba(97,1,13,0.5); */
+    box-shadow: none;
+}
+
+
+/* Ask Doctor Styling */
+.block-img{
+    max-width: 95%;
+}
+.ask-dcotor-form{
+    margin: 30px auto;
+}
+.ask-dcotor-form form h2{
+    font-size: 1.2rem;
+}
+.ask-dcotor-form form input, .ask-dcotor-form form select, .ask-dcotor-form textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    /* background: transparent; */
+    color: rgb(97, 13, 13) !important;
+}
+.ask-dcotor-form form input:focus{
+    /* background: transparent; */
+    /* box-shadow: 0 0 0 0.2rem rgba(97,1,13,0.5); */
+    box-shadow: none;
+}
+
+/* Clinic Appointment */
+.clinic-appointment-form{
+    margin: 50px auto;
+  
+}
+.clinic-appointment-form .register-block{
+
+    background: rgb(97, 13, 13);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+}
+.clinic-appointment-form .register-block h2{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+/* Modal */
+.btn-grouped .modal-content{
+    border-radius: 0;
+    color: rgb(97, 13, 13);
+    /* background: rgb(242, 170, 168); */
+}
+.btn-grouped .modal-content label{
+    color: rgb(97, 13, 13);
+    font-weight: 500
+}
+
+
+
+.table .thead-dark th{
+    background: #eeeeee ;
+    color: rgb(97, 13, 13);
+}
+
+.table th, .table td{
+    padding: 0.2rem;
+    border-color: rgb(97, 13, 13)
+}
+/* Service Request Details */
+.service-request-details h4{
+    font-size: 1.1rem;
+}
+.service-request-details table th, .service-request-details table td{
+    padding: 0.2rem;
+    border-color: #610d0d
+}
+
+
+
+.submit-btn{
+    background: url('/public/image/loupe.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.fa-search{
+    color: #610d0d;
+    border: none;
+    font-size: 2em;
+    background-color: white;
+    /* background-repeat: no-repeat; */
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.icon-maroon{
+    color: #610d0d;
+    border: none;
+    font-size: 1em;
+    background-color: white;
+    /* background-repeat: no-repeat; */
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.btn-submit{
+    background: transparent;
+}
+
+
+
+/* Media Query */
+@media(max-width:768px){
+
+    .navbar-brand{
+        max-width: 200px;
+    }
+
+    .nav-item a{ 
+        text-align: right;
+    }
+
+    .block-img{
+        max-width: 60%;
+    }
+
+    .service-section .row a{
+        margin-bottom: 15px;
+    }
+    .admin-db{
+        max-height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}
+
+@media(min-width:768px){
+    .admin-db{
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}
